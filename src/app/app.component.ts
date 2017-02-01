@@ -7,4 +7,7 @@ import { Component } from '@angular/core';
 })
 export class AppComponent {
   title = 'app works!';
+  value = 'Hello!';
+  cost = 100;
+  values = [10, 20, 30, 40, 50];
 }

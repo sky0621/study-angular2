@@ -1,3 +1,13 @@
 <h1>
   {{title}}
 </h1>
+<h2>
+  {{value}}
+</h2>
+<h3>
+  {{cost * 3}}
+</h3>
+<input [(ngModel)]="value">
+<div *ngFor="let v of values; let i=index">
+  {{i + 1}}番目の値は、{{v}}
+</div>
